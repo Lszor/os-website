@@ -1,0 +1,22 @@
+<form name="login" action="php/login.php" method="post" autocomplete="off">
+    <fieldset>
+        <legend>Login</legend><br>      
+  <!-- Login input -->
+  <div class="form-group">
+    <label class="form-login-label" for="form1login1">Login</label>
+    <input type="text" id="form1login1" class="form-control" name="login"/>
+    
+  </div><br>
+
+  <!-- Senha input -->
+  <div class="form-group">
+    <label class="form-senha-label" for="form1senha1">Senha</label>
+    <input type="password" id="form1senha1" class="form-control" name="senha"/>
+    
+  </div><br>
+  <!-- Submit button -->
+  <input class="btn" id="loginbutton" type="submit" value="Entrar">
+        
+    </fieldset>
+
+</form>
