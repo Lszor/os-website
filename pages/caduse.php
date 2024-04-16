@@ -67,8 +67,7 @@
       <!-- Botões Input -->
       <input class="btn btn-dark" id="bntuser1" type="submit" value="Cadastrar" />
       <input class="btn btn-dark" id="bntuser2" type="reset" value="Limpar" />
-      <a href="./php/consultausuario.php"><input type="button" class="btn btn-dark" name="consult" id="consult"
-          value="Consultar"></a>
+      <a href="./includes/api/get-os/consultausuario.php"><input type="button" class="btn btn-dark" name="consult" id="consult" value="Consultar"></a>
     </div>
   </form>
 </body>

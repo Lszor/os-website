@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="css/cados.css">
+
 <body>
     <!-- Form Cadastro de Ordem de Serviço -->
     <form name="os" action="./includes/api/post-os/cados.php" method="post" autocomplete="off">
@@ -36,22 +38,23 @@
         </P>
         <!-- Defeito -->
         <div>Defeito <br>
-        <textarea name="defeito"></textarea>
-    </div>
-    <!-- ID Cliente -->
-    <P class="form-group">
-        <label for="idcliente">ID Cliente</label>
-        <input class="form-idos-input" type="text" id="idcliente" name="idcliente">
-    </P>
-    <!-- Data Input -->
+            <textarea name="defeito"></textarea>
+        </div>
+        <!-- ID Cliente -->
+        <P class="form-group">
+            <label for="idcliente">ID Cliente</label>
+            <input class="form-idos-input" type="text" id="idcliente" name="idcliente">
+        </P>
+        <!-- Data Input -->
         <P class="data">
             <label for="data"></label>
-            <input class="form-data-input" type="datetime-local" id="data"  name="data_os">
+            <input class="form-data-input" type="datetime-local" id="data" name="data_os">
         </P>
         <!-- Botões Input -->
-        <input class="btn btn-dark" id="bntuser1" type="submit" value="Cadastrar"/>
-        <input class="btn btn-dark" id="bntuser2" type="reset" value="Limpar"/>
-        <a href="./php/consultaos.php"><input type="button" class="btn btn-dark" name="consult" id="consult" value="Consultar"></a>
+        <input class="btn btn-dark" id="bntuser1" type="submit" value="Cadastrar" />
+        <input class="btn btn-dark" id="bntuser2" type="reset" value="Limpar" />
+        <a href="./includes/api/get-os/consultaos.php"><input type="button" class="btn btn-dark" name="consult" id="consult" value="Consultar"></a>
     </form>
 </body>
+
 </html>
